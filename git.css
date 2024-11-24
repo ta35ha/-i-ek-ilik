@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+      /* header kısmı */
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    
+    padding: 20px;
+    background-color: white;
+}
+
+
+.navbar-left{
+    display: flex;
+    gap: 20px;
+    
+    flex-direction: row;
+    
+}
+.navbar-left p{
+    font-family: "Bokor", system-ui;
+    color: rgb(34, 255, 0);
+    font-size: 35px;
+    
+}
+.navbar-menü{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    
+    color: black;
+    
+    
+}
+
+.navbar-right{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* ana kısım */
+
+.banner{
+    
+    display: flex;
+    align-items: center;
+    padding: 20px ;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: #91DDCF;
+}
+
+.banner-left{
+    height: 50vh;
+    justify-content: space-around;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+
+}
+.banner-left h1{
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow: 2px 2px wheat;
+    
+}
+
+.banner-left-contents{
+    display: flex;
+    
+    justify-content: space-around;
+    font-size: 25px;
+    gap: 30px;
+    
+}
+.sayi{
+    font-size: 35px;
+    font-weight: 500;
+    color: crimson;
+    
+}
+hr{
+   background-color: black;
+   width: 4px;
+   border: none;
+}
+
+
+.banner-right{
+ background-position: center;
+}
+.banner-left-search{
+    
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.banner-left-search input{
+    height: 40px;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+
+.banner-left-search button{
+    
+    background-color: #91DDCF;
+    width: 50px;
+    padding: 5px 5px;
+    margin: 3px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* PRODUCT */
+
+.product{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 20px;
+    margin: 20px;
+    gap: 15px;
+    
+    
+}
+.product-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+    
+}
+.product-left h1{
+    font-size: 30px;
+    
+    font-weight: 700
+     
+
+}
+
+
+.product-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.product-right img{
+
+width: 100%;
+
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+ .product-left button{
+    font-size: 15px;
+    width: 160px;
+    height: 60px;
+    border-radius: 15px;
+    cursor: pointer;
+    gap: 10px;
+    transition: all;
+    background-color: #91DDCF;
+    border: none;
+    display:flex ;
+    align-items: center;
+    padding: 5px;
+}
+.product-left button:hover{
+    background-color: red;
+    
+    transition: 0.6s;
+    color: black;
+}
+/* hakkmzıda */
+
+
+.hak{
+    
+    display: flex;
+    flex-direction: column;
+     background-color:#d1d2d4 ;
+     border-radius: 15px;
+     padding: 20px;
+     margin: 20px;
+}
+
+.tanitim{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px; 
+    
+}
+.tanitim h1{
+    font-size: 40px;
+    
+}
+.tanitim span{
+    font-size: 25px;
+    font-weight: 400;
+}
+.reklam-alani{
+    display: flex;
+   
+    
+}
+.reklam{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+    
+
+}
+
+.reklam i{
+    border: solid;
+    font-size: 50px;
+    border-radius: 100%;
+    background-color: #91DDCF;
+    padding: 10px;
+    
+}
+
+.left-iki i:hover{
+    color: black;
+    transform: scale(1.1);
+}
+
+/* kategoriler */
+.kat{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.kat-first{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.kat-first h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+.kat-first span{
+    color: #3f3f40;
+    font-size: 15px;
+}
+
+.kat-second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+    border-radius: 15px;
+    
+
+}
+.kat-second img{
+    width: 100%;
+    
+    background-color: white;
+}
+.frames{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.kat-thrt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+.kat-thrt span{
+    font-size: 20px;
+
+}
+
+
+.kat-thrt button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #91DDCF;
+    border: none;
+}
+
+.kat-thrt button:hover{
+    cursor: pointer;
+    color: yellow;
+
+}
+
+
+/* footer */
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #d1d2d4;
+    
+    margin: 20px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.foot-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 5px ;
+}
+
+.left-bir{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.left-bir h2{
+    font-family: "Bokor", system-ui;
+    color: rgb(17, 25, 15);
+}
+.left-iki{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+    font-size: 40px;
+    
+    
+    
+}
+.left-iki i{
+    border: solid 1px gray;
+    border-radius: 100%;
+    font-size: 30px;
+    padding: 10px;
+    
+}
+
+.foot-right{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+    
+    
+    
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+    font-size: 16px;
+
+}
+
+
+
+/* media etiketleri */
+
+
+@media  (max-width:489){
+    .product{
+        display: flex;
+        flex-direction: column;
+    }
+}
